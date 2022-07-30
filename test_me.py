@@ -14,12 +14,14 @@ now_time = str(now_time)
 
 size = os.path.getsize('device_list.txt')
 
+
+
 with open('device_list.txt', 'r') as f:
     last_line = f.readlines()[-1]
 
-if(size <= 0):
-    Device_name = "sd01_" + str(1)
-else:
+
+if(size > 0):
+    
     dname,dnum = last_line.split("_")
 
     dnum = int(dnum)
@@ -29,11 +31,14 @@ else:
     dnum = str(dnum)
 
     Device_name =  "sd01_" + dnum   
+else:
+    pass
+    
 
 
 
 
-print(Device_name)
+print("Running test for Device - " + Device_name)
 
 
 print("")
@@ -104,7 +109,7 @@ print("============================================")
 
 print("")
 
-with open('Device_list.txt', 'a') as f:
+with open('device_list.txt', 'a') as f:
     f.writelines('\n')
     f.writelines(Device_name)
 
