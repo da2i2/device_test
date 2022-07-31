@@ -116,6 +116,11 @@ print("================== Stress Test Done ====================")
 
 os.system("git add *")
 os.system('git commit -m "' + Device_name + ' added"')
+
+os.system("git config --global credential.https://github.com.username da2i2")
+os.system("git config --global credential.https://github.com.password Aiub@123456")
+
+
 os.system("git push")
 os.system("git pull")
 
