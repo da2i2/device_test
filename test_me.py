@@ -89,7 +89,7 @@ print("============================================")
 
 print("")
 
-myCmd = 'sudo lsusb > /home/pi/Desktop/device_Test/'+Device_name+'_USB.txt'
+myCmd = 'sudo lsusb > /home/pi/Desktop/device_test/'+Device_name+'_USB.txt'
 os.system(myCmd)
 
 
