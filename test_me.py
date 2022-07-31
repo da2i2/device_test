@@ -1,6 +1,5 @@
 import os
 import datetime
-#import dropbox
 import multiprocessing
 import re
 import subprocess
@@ -86,7 +85,7 @@ print("============================================")
 
 print("")
 
-myCmd = 'sudo lsusb > /home/pi/Desktop/Device_Test/'+Device_name+'_USB.txt'
+myCmd = 'sudo lsusb > /home/pi/Desktop/device_Test/'+Device_name+'_USB.txt'
 os.system(myCmd)
 
 
