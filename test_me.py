@@ -8,6 +8,10 @@ import itertools
 import threading
 import sys
 
+os.system("git config --global credential.https://github.com.username da2i2")
+os.system("git config --global credential.https://github.com.password Aiub@123456")
+os.system("git pull")
+
 now_time = datetime.datetime.now()
 now_time = str(now_time)
 
