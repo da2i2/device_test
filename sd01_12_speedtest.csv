@@ -1,2 +1,6 @@
 Date,Time,Ping (ms),Jitter (ms),Download (Mbps),Upload (Mbps)
+<<<<<<< HEAD
 Date,Time,Ping (ms),Jitter (ms),Download (Mbps),Upload (Mbps)07/31/22,22:16,36.04,1.19,53.12,7.69
+=======
+Date,Time,Ping (ms),Jitter (ms),Download (Mbps),Upload (Mbps)07/31/22,22:15,36.57,1.25,43.31,7.48
+>>>>>>> 8b0fe9d5f10fe2e3e6dd0186dcfff47fbae7f026
